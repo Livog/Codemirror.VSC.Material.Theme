@@ -1,21 +1,20 @@
 .CodeMirror {
-  height: 100%;
   line-height: 32px;
   font-family: Menlo, Monaco, 'Courier New', monospace;
 }
 .cm-s-vsc-material.CodeMirror {
-  background-color: #304148;
+  background-color: #263238;
   color: #e9eded;
 }
 .cm-s-vsc-material .CodeMirror-gutters {
-  background: #304148;
+  background: #263238;
   border: none;
 }
 .cm-s-vsc-material .CodeMirror-guttermarker, .cm-s-vsc-material .CodeMirror-guttermarker-subtle, .cm-s-vsc-material .CodeMirror-linenumber {
   color: #445961;
 }
 .cm-s-vsc-material .CodeMirror-cursor {
-  border-left: 2px solid #FFD52B
+  border-left: 2px solid #FFD52B;
 }
 .cm-s-vsc-material div.CodeMirror-selected {
   background: #3D575C;
@@ -39,34 +38,34 @@
   background: #202E33;
 }
 .cm-s-vsc-material .cm-keyword {
-  color: #D5A6EC;
+  color: #c792ea;
 }
 .cm-s-vsc-material .cm-operator {
   color: #e9eded;
 }
 .cm-s-vsc-material .cm-variable-2 {
-  color: #EFFFFF;
+  color: #eeffff;
 }
 .cm-s-vsc-material .cm-variable-3, .cm-s-vsc-material .cm-type {
   color: #8BB9FD;
 }
 .cm-s-vsc-material .cm-builtin {
-  color: #D5A6EC;
+  color: #c792ea;
 }
 .cm-s-vsc-material .cm-atom {
-  color: #F89C7F;
+  color: #f78c6c;
 }
 .cm-s-vsc-material .cm-number {
-  color: #F89C7F;
+  color: #f78c6c;
 }
 .cm-s-vsc-material .cm-def {
   color: #8BE2FE;
 }
 .cm-s-vsc-material .cm-string {
-  color: #CBEAA1;
+  color: #c3e88d;
 }
 .cm-s-vsc-material .cm-string-2 {
-  color: #CBEAA1;
+  color: #c3e88d;
 }
 .cm-s-vsc-material .cm-comment {
   color: #546E7A;
@@ -75,37 +74,37 @@
   color: #82B1FF;
 }
 .cm-s-vsc-material .cm-tag {
-  color: #F9888B;
+  color: #f07178;
 }
 .cm-s-vsc-material .cm-meta {
-  color: #D5A6EC;
+  color: #c792ea;
 }
 .cm-s-vsc-material .cm-attribute {
-  color: #D5A6EC;
+  color: #c792ea;
 }
 .cm-s-vsc-material .cm-property {
-  color: #BCD5DD;
+  color: #b2ccd6;
 }
 .cm-s-vsc-material .cm-qualifier {
-  color: #FFD282;
+  color: #ffcb6b;
 }
 .cm-s-vsc-material .cm-mustache {
-  color: #EFFFFF;
+  color: #eeffff;
 }
 .cm-s-vsc-material .cm-variable-3, .cm-s-vsc-material .cm-type {
-  color: #D5A6EC;
+  color: #c792ea;
 }
 .cm-s-vsc-material .cm-error {
-  color: #BCD5DD;
-  -webkit-text-decoration: 1px wavy #FFD282 !important;
-          text-decoration: 1px wavy #FFD282 !important;
+  color: #b2ccd6;
+  -webkit-text-decoration: 1px wavy #ffcb6b !important;
+          text-decoration: 1px wavy #ffcb6b !important;
   position: relative;
 }
 .cm-s-vsc-material .cm-error:before {
-    background: linear-gradient(-45deg, transparent, transparent 49%, #FFD282 49%, transparent 51%);
+    background: linear-gradient(-45deg, transparent, transparent 49%, #ffcb6b 49%, transparent 51%);
 }
 .cm-s-vsc-material .cm-error:after {
-    background: linear-gradient(45deg, transparent, transparent 49%, #FFD282 49%, transparent 51%);
+    background: linear-gradient(45deg, transparent, transparent 49%, #ffcb6b 49%, transparent 51%);
 }
 .cm-s-vsc-material .cm-error:after, .cm-s-vsc-material .cm-error:before {
     content: '';
